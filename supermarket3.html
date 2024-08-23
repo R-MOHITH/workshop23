@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url(freepik-export-20240821135748lETh.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        li{
+            list-style: none;
+            text-decoration:none ;
+            display: inline-block;
+            margin-top: 40px;
+             margin-left: 40px;
+             
+        }
+        .REX{
+            margin: 0px;
+            text-decoration: none;
+            gap: 40px;
+            display: flex;
+            background-color: yellowgreen;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Adds space between cards */
+            justify-content: center;
+            max-width: 1200px; /* Adjust as needed */
+            padding: 20px;
+        }
+        .card {
+            width: 45%; /* Adjust width to fit two cards per row */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .card-img-top {
+             padding-left:100px ;
+            width: 50%;
+            height: auto;
+        }
+        .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+        .card-title {
+            margin: 0 0 10px 0;
+        }
+        .card-text {
+            margin: 0 0 15px 0;
+        }
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <hr>
+    <div  class="REX">
+        <h3><img src="LOGO.IMG" width="100px"height="100"> REX SUPERMARKET</img></h3>
+        <li><a href="">HOME</li>
+        <li><a href=""> ABOUT US </a></li>
+        <li><a href=""> DEALS </a></li>
+        <li><a href="">NEW ARRIVALS</a></li>
+        <li><a href=""> SUPPORT</a></li>
+    </div>
+    <hr>
+    <form>         
+        <center><label>NAME :</label>
+          <input type="text"></input><br><br>
+           <label>PHONE NO :</label>
+           <input type="number"></input><br><br>
+           <label>ADDRESS :</label>
+           <input type="text"></input></center><br>
+           <center><label>SEARCH BOX:</label><input type="search"></input></center>
+       </form>
+
+<div class="container">
+    <div class="card">
+        <img class="card-img-top" src="raw-cross-ingredient-studio-citrus.jpg" alt="Orange">
+        <div class="card-body">
+            <h5 class="card-title">Orange</h5>
+            <p class="card-text"><strike>₹70</strike> ₹55<br>It helps prevent chronic diseases, reduce visceral fat, keep you hydrated, and aid in digestion.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="tomato.jpeg" alt="Tomato">
+        <div class="card-body">
+            <h5 class="card-title">Tomato</h5>
+            <p class="card-text"><strike>₹40</strike> ₹35<br>Tomatoes are a versatile vegetable.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="dairymilk.img" alt="Dairy Milk">
+        <div class="card-body">
+            <h5 class="card-title">Dairy Milk</h5>
+            <p class="card-text"><strike>₹90</strike> ₹80<br>Chocolate bar, block, bags, cake, biscuits, desserts, and ice-cream.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="oreo.jpeg" alt="Oreo">
+        <div class="card-body">
+            <h5 class="card-title">Oreo</h5>
+            <p class="card-text"><strike>₹40</strike> ₹35<br>Devour.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="COKE ZERO.jpeg" alt="Coke Zero">
+        <div class="card-body">
+            <h5 class="card-title">Coke Zero</h5>
+            <p class="card-text">Drink and refresh yourself.<BR>Nothing beats an ice-cold Coke on a hot summer day. ...</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="lays.jpeg" alt="Lays">
+        <div class="card-body">
+            <h5 class="card-title">Lays</h5>
+            <p class="card-text"><strike>₹30</strike> ₹25<br>Taste the Indian magic masala.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="curd.jpeg" alt="Heritage">
+        <div class="card-body">
+            <h5 class="card-title">Heritage</h5>
+            <p class="card-text"><strike>₹35</strike> ₹30<br>Improves digestion, immunity, etc.</p>
+            <a href="#" class="btn">Add to cart</a>
+        </div>
+    </div>
+</div>
+
+<center>
+    <input type="submit" value="Submit" style="margin-top: 10px;">
+</center>
+
+<footer>
+    Copyright 2024<br>Contact us<br>+9145212422
+</footer>
+
+</body>
+</html>
